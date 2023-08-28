@@ -7,19 +7,20 @@ public class Reverse2 {
         int rev = 0;
         int last;
 
+
         int a = sc.nextInt();
 
 
-        while (a>0){
-            last = a%10;
-            rev = (rev*10) + last; //reverse the number
-            a = a/10;
-        }
-        System.out.println(rev);
+//        while (a>0){
+//            last = a%10;
+//            rev = (rev*10) + last; //reverse the number
+//            a = a/10;
+//        }
+//        System.out.println(rev);
 
 
-        for ( a = 12345; a>0;a/=10 ){
-             last = a%10;
+        for ( int p = a; p>0;p/=10 ){        //we have to initialize "a" for forloop's condition ,if we want a user input in forloop.
+             last = p%10;
              rev = (rev*10) + last;
         }
         System.out.println(rev);
