@@ -6,9 +6,9 @@ public class Breakstatement {
 
         System.out.print("Enter the number = ");
         int a = sc.nextInt();
-        int i;
-        for (i=0; i<=a; i++){
-            if (i==10){
+
+        for (int i=0; i<=a; i++){
+            if (i==11){
                 break;
             }
             System.out.println(i);
