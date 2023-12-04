@@ -3,11 +3,21 @@ import java.util.*;
 public class Spanofarray {
     public static int diff(int[] arr, int n){
 
-      int max = Integer.MIN_VALUE;
-      int min = Integer.MAX_VALUE;
+//      int max = Integer.MIN_VALUE;
+//      int min = Integer.MAX_VALUE;
+        int max = arr[0];
+        int min = arr[0];
       for (int i = 0; i<arr.length; i++){
-          max = Math.max(max,arr[i]);
-          min = Math.min(min,arr[i]);
+//          max = Math.max(max,arr[i]);
+//          min = Math.min(min,arr[i]);
+
+          if (max<arr[i]){
+              max = arr[i];
+          }
+          if (min>arr[i]){
+              min = arr[i];
+          }
+
       }
         System.out.println("max = " + max);
         System.out.println("min = " + min);
