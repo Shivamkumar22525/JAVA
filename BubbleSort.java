@@ -18,14 +18,14 @@ public class BubbleSort {
             if (count==0) {
                 break;
             }
-            System.out.print(count);
+            System.out.println(count);
         }
 
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {5,3,8,2,1};
         Sort(arr);
 
         for (int i = 0; i<arr.length; i++){

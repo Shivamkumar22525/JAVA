@@ -22,7 +22,8 @@ public class Reverse2 {
         for ( int p = a; p>0;p/=10 ){        //we have to initialize "a" for forloop's condition ,if we want a user input in forloop.
              last = p%10;
              rev = (rev*10) + last;
+            System.out.println(rev + " ");
         }
-        System.out.println(rev);
+
     }
 }

@@ -6,12 +6,10 @@ public class Anybasesubs {
         int ans = 0;
         int borrow = 0;
         int pow = 0;
-
+        int sub = 0;
         for (int i = num1,j = num2; i>0 ; i/=10,j/=10 ){
             int rem1 = i%10;
             int rem2 = j%10;
-
-            int sub = 0;
 
             rem1 = rem1+borrow;
 
@@ -27,8 +25,6 @@ public class Anybasesubs {
 
             ans = ans + sub*(int)Math.pow(10,pow);
             pow++;
-
-
         }
         return ans;
     }

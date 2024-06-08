@@ -22,7 +22,7 @@ public class F_prime {
     }
     public static void main(String[] args) {
 
-        System.out.println(prime(1));
+        System.out.println(prime(43));
 
     }
 }

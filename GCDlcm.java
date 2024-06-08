@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class GCDlcm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+//
         System.out.print("Enter the first number = ");
         int a = sc.nextInt();
 
@@ -24,5 +24,9 @@ public class GCDlcm {
 
         int LCM = n1*n2/GCD;
         System.out.println("LCM = " + LCM);
+
+
+
+
     }
 }

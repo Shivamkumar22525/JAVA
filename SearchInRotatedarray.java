@@ -10,7 +10,7 @@ public class SearchInRotatedarray {
                 h = mid;
             }
         }
-        System.out.println(l);
+//        System.out.println(l);
         return l;
     }
 

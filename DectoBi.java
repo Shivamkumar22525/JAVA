@@ -11,7 +11,7 @@ public class DectoBi {
     }
     public static void main(String[] args) {
 
-        System.out.println(Dec(15));
+        System.out.println(Dec(20));
 
     }
 }

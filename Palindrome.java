@@ -19,7 +19,7 @@ public class Palindrome {
     }
     public static void main(String[] args) {
 
-        palindrome(169961);
+        palindrome(9);
 
     }
 }

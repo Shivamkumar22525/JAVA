@@ -15,6 +15,8 @@ public class Swapping {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("shivam");
+
         System.out.print("a = ");
         int a = sc.nextInt();
         System.out.print("b = ");

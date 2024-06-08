@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class LinearSearch {
 
-    public static int Search(String menu[], String key){
+    public static int Search(String[] menu, String key){
 
-        int count = 0;
+//        int count = 0;
 
 
         for (int i = 0; i<menu.length; i++){
@@ -40,7 +40,7 @@ public class LinearSearch {
         System.out.print("what would you like to eat = ");
         String key = sc.next();
 
-       int check = Search(menu,key);
+       int check = Search(menu, key);
 
        if (check == -1){
            System.out.println("Not found");
